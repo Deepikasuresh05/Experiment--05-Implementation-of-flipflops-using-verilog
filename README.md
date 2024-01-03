@@ -1,7 +1,10 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### AIM:
+To implement all the flipflops using verilog and validating their functionality using their functional tables
+### HARDWARE REQUIRED: 
+ PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:   
+Quartus prime
 ### THEORY 
 SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
@@ -101,40 +104,47 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
-
-
-
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: S DEEPIKA
+RegisterNumber:  23002257
 */
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/839431df-985f-4152-b102-d2f584a5998f)
 
 
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/3e2dcc2b-9d14-4252-b15d-2dddcbf4c7c7)
 
 
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/968ee1cf-76da-4ce7-8f3a-c22fbb8cff85)
+
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/bf451517-de3b-4f30-a4f3-0450a1433f73)
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/9236dc0b-2a56-4a33-8246-82e06a1f38cc)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/0439ffcb-a380-4e64-b003-c0d760cc0aa6)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/f5181917-f7f2-42b3-b99d-107910bda351)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/5ae2eb39-844f-4b3e-8ca6-4e11f533a9de)
+
+
+### WAVES
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/cd4a62be-a9bf-44cf-8353-16f9ff398730)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/3adeebc9-39dc-4ce5-b071-652736c0cd20)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/f4df2223-e843-43c6-acc0-b3dd786679e9)
+
+![image](https://github.com/Deepikasuresh05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/148514509/a498ec66-01ed-4633-9962-7d41d753fc59)
+
+
+## RESULT
+Hence implementation of flip flops using Verilog is verified
 
 
 
-
-
-
-
-
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
-
-### RESULTS 
